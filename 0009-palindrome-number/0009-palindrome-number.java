@@ -10,10 +10,8 @@ class Solution {
           int j = str.length() - 1 - i;
         int dig =str.charAt(i)-'0';
          int dig2 = str.charAt(j) - '0';
-        if(dig==dig2){
-            a=0;
-        }
-        else {
+        if(dig!=dig2){
+            
             a++;
         }
         
